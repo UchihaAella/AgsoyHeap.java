@@ -1,10 +1,10 @@
-public class Agsoy {
+public class AgsoyMinHeap { 
 
     private int[] heap;
     private int size;
     private int capacity;
 
-    public MinHeap(int capacity) {
+    public AgsoyMinHeap(int capacity) {
         this.capacity = capacity;
         this.heap = new int[capacity];
         this.size = 0;
@@ -122,7 +122,7 @@ public class Agsoy {
     }
 
     public static void main(String[] args) {
-        MinHeap minHeap = new MinHeap(7); // Capacity of 7
+        AgsoyMinHeap minHeap = new AgsoyMinHeap(7); // Capacity of 7
 
         // Insert the elements from the example
         minHeap.insert(2);
